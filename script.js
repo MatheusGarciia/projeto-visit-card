@@ -8,14 +8,9 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "../Assets/avatar-light.png")
-    img.setAttribute("alt", "Luffy olhando para o mar")
+    img.setAttribute("src", "./Assets/avatar-light.png")
   } else {
     // se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "../Assets/avatar.png")
-    img.setAttribute(
-      "alt",
-      "Foto de Matheus Garcia, usando camisa branca e o cabelo longo, com fundo em sua casa."
-    )
+    img.setAttribute("src", "./Assets/avatar.png")
   }
 }
